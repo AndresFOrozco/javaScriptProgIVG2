@@ -63,3 +63,48 @@ console.log("El segundo número es: "+ num_2);
 console.log("El tercer número es: "+ num_3);
 console.log("El promedio de los números es: "+ prom);
 ```
+
+## Ejercicio 7
+
+```javascript
+let numero = parseFloat(prompt("Ingrese el un número: "));
+console.log("El número ingresado es: "+ numero);
+let por100 = (numero-(numero*0.15))
+console.log("descontando el 15% queda : "+ por100);
+```
+## Ejercicio 8
+
+```javascript
+let palabra_1 = (prompt("Ingrese la primera palabra: "));
+let palabra_2 = (prompt("Ingrese la segunda palabra: "));
+console.log("La primera palabra es: "+ palabra_1);
+console.log("la segunda palabra es: "+ palabra_2);
+let union = palabra_1+ " " + palabra_2
+console.log(union);
+```
+
+## Ejercicio 9
+
+```javascript
+let texto = (prompt("Ingrese un texto: "));
+console.log("El texto es: "+ texto);
+console.log("La primera letra del texto es :" + texto.charAt(0));
+let indice = (prompt("Ingrese un numero positivo nenor a " + texto.length));
+console.log("El numero menor que " + texto.length + " es: " +indice)
+console.log("El caracter en la posición " + indice +" es: " + texto.charAt(indice));
+```
+
+## Ejercicio 10
+
+```javascript
+let show = (prompt("Cuantos Shows musicales a visto en el último año?: "));
+console.log(" Shows vistos en el ultimo año: " +show);
+
+if (show <=3){
+  console.log(false);   
+}else{
+  console.log(true); 
+}
+```
+
+
