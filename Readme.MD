@@ -1,13 +1,13 @@
 # Entrega Tarea 11 JavaScript
 
 ## Ejercicio_1.js
-### Escribir un programa que solicite al usuario que ingrese su nombre. El nombre se debe almacenar en una letiable llamada nombre. A continuación, se debe mostrar en pantalla el texto “Ahora estas en la matrix, [usuario]”, donde “[usuario]” se reemplazará por el nombre que se haya ingresado.
+### Escribir un programa que solicite al usuario que ingrese su nombre. El nombre se debe almacenar en una variable llamada nombre. A continuación, se debe mostrar en pantalla el texto “Ahora estas en la matrix, [usuario]”, donde “[usuario]” se reemplazará por el nombre que se haya ingresado.
 ```javascript
 let usuario = prompt("Ingresen su nombre : ");
 console.log("Ahora estás en la matrix, " + usuario);
 ```
 ## Ejercicio_2.js
-### Escribir un programa que solicite al usuario ingresar un número con decimales y almacenarlo en una letiable, el programa debe solicitar al usuario que ingrese un número entero y guardarlo en otra letiable. En una tercera letiable se deberá guardar el resultado de la suma de los dos números ingresados por el usuario. Por último, se deberá mostrar en pantalla el texto “El resultado de la suma es [suma]”, donde “[suma]” se reemplazará por el resultado de la operación.
+### Escribir un programa que solicite al usuario ingresar un número con decimales y almacenarlo en una variable, el programa debe solicitar al usuario que ingrese un número entero y guardarlo en otra variable. En una tercera variable se deberá guardar el resultado de la suma de los dos números ingresados por el usuario. Por último, se deberá mostrar en pantalla el texto “El resultado de la suma es [suma]”, donde “[suma]” se reemplazará por el resultado de la operación.
 ```javascript
 let decimal = parseFloat(prompt("Ingrese un numero decimal: "));
 let entero = parseInt(prompt("Ingrese un numero entero: "));
@@ -17,7 +17,7 @@ console.log("El segundo numero es: " + entero);
 console.log("El resultado de la suma es: " + suma);
 ```
 ## Ejercicio_3.js
-### Escribir un programa que solicite al usuario dos números y los almacene en dos letiables. En otra letiable, almacenará el resultado de la suma de esos dos números y luego mostrará ese resultado en pantalla. A continuación, el programa debe solicitar al usuario que ingrese un tercer número, el cual se debe almacenar en una letiable. Por último, mostrara en pantalla el resultado de la multiplicación de este nuevo número por el resultado de la suma anterior.
+### Escribir un programa que solicite al usuario dos números y los almacene en dos variables. En otra variable, almacenará el resultado de la suma de esos dos números y luego mostrará ese resultado en pantalla. A continuación, el programa debe solicitar al usuario que ingrese un tercer número, el cual se debe almacenar en una variable. Por último, mostrara en pantalla el resultado de la multiplicación de este nuevo número por el resultado de la suma anterior.
 ```javascript
 let pri_num = parseFloat(prompt("Ingrese el primer número: "));
 let seg_num = parseFloat(prompt("Ingrese el segundo número: "));
@@ -61,7 +61,7 @@ console.log("El tercer número es: " + num_3);
 console.log("El promedio de los números es: " + prom);
 ```
 ## Ejercicio_7.js
-## Escribir un programa que solicite al usuario un número y le reste 15%, almacenando todo en una única letiable. A continuación, mostrar el resultado final en pantalla.
+## Escribir un programa que solicite al usuario un número y le reste 15%, almacenando todo en una única variable. A continuación, mostrar el resultado final en pantalla.
 ```javascript
 let numero = parseFloat(prompt("Ingrese el un número: "));
 console.log("El número ingresado es: " + numero);
@@ -69,7 +69,7 @@ let por100 = (numero - (numero*0.15));
 console.log("descontando el 15% queda : " + por100);
 ```
 ## Ejercicio_8.js
-### Escribir un programa que solicite al usuario el ingreso de dos palabras, las cuales se guardarán en dos letiables distintas. A continuación, almacenará en una letiable la concatenación de la primera palabra, más un espacio, más la segunda palabra. Mostar este resultado en pantalla.
+### Escribir un programa que solicite al usuario el ingreso de dos palabras, las cuales se guardarán en dos variables distintas. A continuación, almacenará en una variable la concatenación de la primera palabra, más un espacio, más la segunda palabra. Mostar este resultado en pantalla.
 ```javascript
 let palabra_1 = (prompt("Ingrese la primera palabra: "));
 let palabra_2 = (prompt("Ingrese la segunda palabra: "));
@@ -79,7 +79,7 @@ let union = palabra_1+ " " + palabra_2;
 console.log(union);
 ```
 ## Ejercicio_9.js
-### Escribir un programa que solicite al usuario el ingreso de un texto y almacene ese texto en una letiable. A continuación, mostraren pantalla la primera letra del texto ingresado. Luego solicitar que ingrese un número menor a la cantidad de caracteres que tiene el texto que ingresó (por ejemplo, si escribe la palabra “HOLA”, tendrá que ser un numero entre 0 y 3) y almacenar ese número en una letiable llamada índice. Mostar en pantalla el carácter del texto ubicado en la posición dada por índice.
+### Escribir un programa que solicite al usuario el ingreso de un texto y almacene ese texto en una variable. A continuación, mostraren pantalla la primera letra del texto ingresado. Luego solicitar que ingrese un número menor a la cantidad de caracteres que tiene el texto que ingresó (por ejemplo, si escribe la palabra “HOLA”, tendrá que ser un numero entre 0 y 3) y almacenar ese número en una variable llamada índice. Mostar en pantalla el carácter del texto ubicado en la posición dada por índice.
 ```javascript
 let texto = (prompt("Ingrese un texto: "));
 console.log("El texto es: " + texto);
@@ -89,7 +89,7 @@ console.log("El numero menor que " + texto.length + " es: " + indice);
 console.log("El caracter en la posición " + indice +" es: " + texto.charAt(indice));
 ```
 ## Ejercicio_10.js
-### Escribir un programa que solicite al usuario que ingrese cuántos shows musicales ha visto en el último año y almacene ese número en una letiable. A continuación, mostrar un valor de verdad (True o False) que indique si ha visto más de tres shows
+### Escribir un programa que solicite al usuario que ingrese cuántos shows musicales ha visto en el último año y almacene ese número en una variable. A continuación, mostrar un valor de verdad (True o False) que indique si ha visto más de tres shows
 ```javascript
 let show = (prompt("Cuantos Shows musicales a visto en el último año?: "));
 console.log(" Shows vistos en el ultimo año: " +show);
@@ -132,7 +132,7 @@ else{
 } 
 ```
 ### Ejercicio_13.js
-Escribir un programa que solicite al usuario su edad y la guarde en una letiable. Que luego solicite la cantidad de artículos comprados en una tienda y la almacene en otra letiable. Finalmente, mostrar en pantalla un valor de verdad (True o False) que indique si el usuario es mayor de 18 de edad y además compró más de 1 articulo.
+Escribir un programa que solicite al usuario su edad y la guarde en una variable. Que luego solicite la cantidad de artículos comprados en una tienda y la almacene en otra variable. Finalmente, mostrar en pantalla un valor de verdad (True o False) que indique si el usuario es mayor de 18 de edad y además compró más de 1 articulo.
 ```javascript
 let edad = (prompt("Ingresa tu edad: "));
 console.log(" Tu edad: " + edad);
@@ -160,7 +160,7 @@ else{
 }
 ```
 ## Ejercicio_15.js
-### Escribir un programa que le pida al usuario ingresar dos palabras y las guarde en dos letiables, que luego inprima True si la primera palabra es un menor que la segunda o False si no lo es.
+### Escribir un programa que le pida al usuario ingresar dos palabras y las guarde en dos variables, que luego inprima True si la primera palabra es un menor que la segunda o False si no lo es.
 ```javascript
 let palabra1 = (prompt("Ingrese la primera palabra: "));
 let palabra2 = (prompt("Ingrese la segunda palabra: "));
