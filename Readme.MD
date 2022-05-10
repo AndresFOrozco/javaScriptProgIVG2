@@ -259,6 +259,6 @@ else{
     menor = num_3;
 }
 console.log("El menor de los tres números es: "+ menor);
-
+```
 
 
